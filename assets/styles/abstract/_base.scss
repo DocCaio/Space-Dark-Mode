@@ -1,5 +1,11 @@
 @import './variaveis';
-
-html, body {
+ body {
     font-family: $fonte;
+        
+    #mobile-bg {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+
+    }
 }
