@@ -4,19 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space</title>
+    <title>Space Trip</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/styles/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-<link rel="stylesheet" href="./assets/styles/style.css">
+<link rel="stylesheet" href="/sass/components/">
 </head>
 <body>
-    <img id="mobile-bg" src="/assets/home/background-home-tablet.jpg" alt="Space">    
+    <div class="home">
+        <nav class="navbar">
+          <div class="navbar__logo-box">
+            <img src="./assets/shared/logo.svg" alt="logo" />
+          </div>  
     <header>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__link font-navbar"
+                      ><span class="navbar__span">01</span>Home</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="moon.html" class="navbar__link font-navbar"
+                      ><span class="navbar__span">02</span>Destino</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="moon.html" class="navbar__link font-navbar"
+                      ><span class="navbar__span">03</span>Equipe</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="moon.html" class="navbar__link font-navbar"
+                      ><span class="navbar__span">04</span>Tecnologia</a>
+                  </li>
+            </ul>
+        </nav>
     </header>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>
